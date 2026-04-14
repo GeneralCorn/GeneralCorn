@@ -50,41 +50,6 @@
 
 ---
 
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### [Origami](https://github.com/GeneralCorn/Origami) ⭐ 4
-Multi-purpose productivity tool built with TypeScript
-
-</td>
-<td width="50%">
-
-### [Personal-Portfolio](https://github.com/GeneralCorn/Personal-Portfolio)
-Personal portfolio site — TypeScript
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### [NoDataNoPain](https://github.com/cs411-alawini/fa24-cs411-team015-NoDataNoPain) ⭐ 1
-CS 411 team project — full-stack data application (JavaScript)
-
-</td>
-<td width="50%">
-
-### [Raincheck](https://github.com/GeneralCorn/Raincheck)
-Weather-aware scheduling assistant
-
-</td>
-</tr>
-</table>
-
----
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=GeneralCorn&style=for-the-badge&color=cba6f7&labelColor=1e1e2e&label=PROFILE+VIEWS" />
 </p>
