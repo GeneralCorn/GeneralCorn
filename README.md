@@ -14,7 +14,7 @@
 
 - 🎓 **CS + Math** @ University of Illinois at Urbana-Champaign (Statistics minor) — graduating May 2026
 - 🔬 NLP research (citation classification, misinformation detection)
-- 💼 SWE intern @ HeybossAI | Course Assistant for CS, STAT & MATH courses
+- 💼 ex-SWE intern @ HeybossAI | Course Assistant for CS, STAT & MATH courses
 - 📷 Portrait, street & wildlife photographer
 - 🎮 Currently watching One Piece & playing Slay the Spire 2 and Overwatch
 - 🌱 Exploring prediction markets, local LLM inference, and AI agent systems
