@@ -22,7 +22,7 @@
 - 🔬 NLP research (citation classification, misinformation detection)
 - 💼 SWE intern @ HeybossAI | Course Assistant for CS, STAT & MATH courses
 - 📷 Portrait, street & wildlife photographer
-- 🎮 Currently watching One Piece & playing Slay the Spire 2
+- 🎮 Currently watching One Piece & playing Slay the Spire 2 and Overwatch
 - 🌱 Exploring prediction markets, local LLM inference, and AI agent systems
 
 ---
@@ -42,6 +42,8 @@
 ---
 
 ## 📊 GitHub Stats
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GeneralCorn&theme=catppuccin_mocha)
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=GeneralCorn&show_icons=true&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&icon_color=f5c2e7&text_color=cdd6f4&ring_color=cba6f7" width="48%" />
