@@ -12,11 +12,12 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 **CS + Math** @ University of Illinois at Urbana-Champaign (Statistics minor) — graduating May 2026
+- 🎓 **CS + Math** @ University of Illinois at Urbana-Champaign (Statistics minor)
 - 🔬 NLP research (citation classification, misinformation detection)
-- 💼 ex-SWE intern @ HeybossAI | Course Assistant for CS, STAT & MATH courses
+- 💼 Incoming SWE intern @ Kosmos Tech
+- 💼 ex-SWE intern @ HeybossAI | ex-Course Assistant for CS, STAT & MATH courses
 - 📷 Portrait, street & wildlife photographer
-- 🎮 Currently watching One Piece & playing Slay the Spire 2 and Overwatch
+- 🎮 Currently watching One Piece & playing Slay the Spire 2 and Overwatch and Brawl Stars
 - 🌱 Exploring prediction markets, local LLM inference, and AI agent systems
 
 ---
