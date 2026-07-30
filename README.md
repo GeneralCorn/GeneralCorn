@@ -14,7 +14,7 @@
 
 - 🎓 **CS + Math** @ University of Illinois at Urbana-Champaign (Statistics minor)
 - 🔬 NLP research (citation classification, misinformation detection)
-- 💼 SWE intern @ Kosmos Tech
+- 💼 SWE @ Kosmos Tech
 - 💼 SWE Contractor @ Anderson Tax Canada
 - 💼 ex-SWE intern @ HeybossAI | ex-Course Assistant for CS, STAT & MATH courses
 - 🛠️ Currently building **[Origami](https://github.com/GeneralCorn/Origami)** (local-first AI research assistant) and **[Omniclaw](https://github.com/GeneralCorn/Omniclaw)** (containerized personal AI copilot)
