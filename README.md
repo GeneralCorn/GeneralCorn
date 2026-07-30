@@ -133,7 +133,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=GeneralCorn&theme=catppuccin-mocha&border_radius=8&background=1e1e2e&border=313244&stroke=313244&ring=cba6f7&fire=f5c2e7&currStreakNum=cdd6f4&sideNums=cdd6f4&currStreakLabel=cba6f7&sideLabels=a6adc8&dates=6c7086" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/GeneralCorn/GeneralCorn/output/streak.svg" alt="GitHub streak" />
 </p>
 
 <p align="center">
@@ -141,7 +141,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=GeneralCorn&theme=dracula&no-frame=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
+  <img src="https://raw.githubusercontent.com/GeneralCorn/GeneralCorn/output/trophies.svg" alt="Trophies" />
 </p>
 
 <!--
