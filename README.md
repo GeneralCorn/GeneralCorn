@@ -133,29 +133,8 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GeneralCorn/GeneralCorn/output/streak.svg" alt="GitHub streak" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=GeneralCorn&custom_title=Contribution%20Activity&bg_color=1e1e2e&title_color=cba6f7&color=cdd6f4&line=cba6f7&point=f5c2e7&area_color=cba6f7&area=true&hide_border=true&radius=8&days=30" alt="Activity graph" />
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GeneralCorn/GeneralCorn/output/trophies.svg" alt="Trophies" />
-</p>
-
-<!--
-  The classic github-readme-stats cards below live on the public demo instance, which
-  every profile on GitHub shares and which is rate-limited into 429s for most of the day
-  (that is why they rendered as broken images). Deploy your own instance —
-  https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance —
-  then swap the hostname below and uncomment this block.
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GeneralCorn&show_icons=true&hide_border=true&cache_seconds=86400&bg_color=1e1e2e&title_color=cba6f7&icon_color=f5c2e7&text_color=cdd6f4&ring_color=cba6f7" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GeneralCorn&layout=compact&hide_border=true&cache_seconds=86400&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4" width="49%" />
-</p>
--->
 
 ---
 
@@ -167,6 +146,14 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GeneralCorn/GeneralCorn/output/snake.svg" />
     <img src="https://raw.githubusercontent.com/GeneralCorn/GeneralCorn/output/snake.svg" alt="Contribution snake animation" />
   </picture>
+</p>
+
+---
+
+## 🐋 The deep end
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GeneralCorn/GeneralCorn/main/assets/ocean.svg" width="100%" alt="A beluga whale drifting past the kelp" />
 </p>
 
 ---

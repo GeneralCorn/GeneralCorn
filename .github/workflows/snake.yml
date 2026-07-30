@@ -19,17 +19,8 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
-      # Previously published cards, so a failed refresh keeps the last good copy
-      # instead of blanking the image.
-      - name: Fetch previously published assets
-        uses: actions/checkout@v4
-        continue-on-error: true
-        with:
-          ref: output
-          path: prev
-
       - name: Render contribution grid to SVG
         uses: Platane/snk@v3
         with:
@@ -38,46 +29,6 @@ jobs:
           outputs: |
             dist/snake.svg?color_snake=#cba6f7&color_dots=#ebedf0,#dcd0f5,#c4a7f0,#a97fe0,#8839ef
             dist/snake-dark.svg?palette=github-dark&color_snake=#cba6f7&color_dots=#1e1e2e,#45475a,#7f849c,#b4befe,#cba6f7
-
-      # streak-stats and profile-trophy run on shared public instances that hit
-      # GitHub's API rate limit and start returning 429s. Snapshotting them here
-      # means the README loads from this repo and never depends on their uptime.
-      - name: Snapshot third-party stat cards
-        env:
-          USER_NAME: ${{ github.repository_owner }}
-        run: |
-          mkdir -p dist
-
-          fetch_card() {
-            name="$1"
-            url="$2"
-            for attempt in 1 2 3 4 5; do
-              if curl -fsSL --max-time 30 "$url" -o "dist/$name.tmp" \
-                && [ -s "dist/$name.tmp" ] \
-                && head -c 512 "dist/$name.tmp" | grep -qi '<svg'; then
-                mv "dist/$name.tmp" "dist/$name"
-                echo "refreshed $name"
-                return 0
-              fi
-              echo "attempt $attempt failed for $name"
-              sleep $(( attempt * 10 ))
-            done
-
-            rm -f "dist/$name.tmp"
-            if [ -f "prev/$name" ]; then
-              cp "prev/$name" "dist/$name"
-              echo "kept previous $name"
-            else
-              echo "no copy available for $name"
-            fi
-          }
-
-          fetch_card streak.svg "https://streak-stats.demolab.com/?user=$USER_NAME&theme=catppuccin-mocha&border_radius=8&background=1e1e2e&border=313244&stroke=313244&ring=cba6f7&fire=f5c2e7&currStreakNum=cdd6f4&sideNums=cdd6f4&currStreakLabel=cba6f7&sideLabels=a6adc8&dates=6c7086"
-
-          fetch_card trophies.svg "https://github-profile-trophy.vercel.app/?username=$USER_NAME&theme=dracula&no-frame=true&column=7&margin-w=8&margin-h=8"
-
-          echo "--- published ---"
-          ls -la dist
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
