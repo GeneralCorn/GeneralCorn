@@ -19,7 +19,7 @@
 - 💼 ex-SWE intern @ HeybossAI | ex-Course Assistant for CS, STAT & MATH courses
 - 🛠️ Currently building **[Origami](https://github.com/GeneralCorn/Origami)** (local-first AI research assistant) and **[Omniclaw](https://github.com/GeneralCorn/Omniclaw)** (containerized personal AI copilot)
 - 📷 Portrait, street & wildlife photographer
-- 🎮 Currently watching One Piece & playing Slay the Spire 2, Overwatch and Brawl Stars
+- 🎮 Currently watching One Piece & playing Slay the Spire 2, Overwatch, Palworld and Brawl Stars
 - 🌱 Exploring prediction markets, local LLM inference, and AI agent systems
 
 ---
